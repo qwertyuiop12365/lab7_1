@@ -18,7 +18,7 @@ for (int i = 0; i < products.Length; i++)
 }
 for (int i = 0; i < products.Length; i++)
 {
-    if (products[i].time == 5) products[i].Print();
+    if (products[i].time <= 5) products[i].Print();
 }
 
 struct Product
